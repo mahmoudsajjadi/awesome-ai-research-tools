@@ -46,7 +46,7 @@ Interactive visualization engines to explore academic ancestry, co-citations, an
 
 Accelerate comprehension of mathematical formulations, dense methodology sections, and supplemental proofs.
 
-- [NotebookLM](https://notebooklm.google/) — Grounded AI research notebook using Gemini 1.5 Pro to synthesize multi-source PDFs, extract cross-document citations, and generate audio discussions.
+- [NotebookLM](https://notebooklm.google/) — Grounded research notebook designed to synthesize multi-source PDFs, extract cross-document citations, and generate structured audio discussions.
 - [SciSpace (Typeset)](https://typeset.io/) — Interactive paper reader providing highlighted explanations for math formulas, complex tables, and domain jargon.
 - [ChatPDF](https://www.chatpdf.com/) — Fast, zero-friction conversational interface for querying single research PDFs.
 - [Explainpaper](https://www.explainpaper.com/) — Highlight confusing scientific prose to generate instant plain-English explanations.
