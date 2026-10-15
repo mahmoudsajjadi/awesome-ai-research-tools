@@ -2,6 +2,9 @@
 
 > A curated list of cutting-edge AI tools, frameworks, and workflows designed to supercharge scientific research, literature discovery, LaTeX writing, and experimental reproducibility across academia and industry.
 
+
+> 💡 **Sister Repository:** Looking for agentic IDEs, local coding models, and terminal pair programmers? Check out [Awesome AI Coding Tools](https://github.com/mahmoudsajjadi/awesome-ai-coding-tools).
+
 ---
 
 ## 🗺 Choose Your Research Path: Progressive Roadmap
