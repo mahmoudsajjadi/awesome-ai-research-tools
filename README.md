@@ -141,6 +141,29 @@ Agents that autonomously search the web, formulate hypotheses, and draft literat
 
 ---
 
+## 📚 Detailed Academic Guides
+
+- [⚖️ Academic Integrity & AI Disclosure](docs/ACADEMIC_INTEGRITY.md) — Publisher policies and disclosure templates.
+- [📝 Scientific Prompt Templates](docs/PROMPT_TEMPLATES.md) — Abstract writing, rebuttal drafts, and proofreading.
+- [🔬 Computational Reproducibility Checklist](docs/REPRODUCIBILITY_CHECKLIST.md) — Best practices for code & data sharing.
+- [📚 Reference Managers & Zotero Guide](docs/REFERENCE_MANAGERS.md) — Automated BibTeX pipelines.
+- [🖋️ Publication-Grade LaTeX Guide](docs/LATEX_BEST_PRACTICES.md) — Formatting rules for camera-ready papers.
+
+---
+
+## 📖 BibTeX Citation
+
+```bibtex
+@misc{sajjadi2026awesomeresearch,
+  title        = {Awesome AI Research Tools: A Curated Catalog of Literature Discovery, LaTeX, and Reproducibility Workflows},
+  author       = {Sajjadi, Mahmoud},
+  year         = {2026},
+  howpublished = {\url{https://github.com/mahmoudsajjadi/awesome-ai-research-tools}}
+}
+```
+
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please check out [CONTRIBUTING.md](CONTRIBUTING.md) for submission criteria before opening a Pull Request.
