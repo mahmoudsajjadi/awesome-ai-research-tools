@@ -1,0 +1,14 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^https://zenodo.org"
+    },
+    {
+      "pattern": "^https://codeocean.com"
+    },
+    {
+      "pattern": "^https://arxiv.org"
+    }
+  ],
+  "aliveStatusCodes": [200, 202, 206, 301, 302, 307, 308]
+}

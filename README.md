@@ -69,7 +69,7 @@ Interactive visualization engines to explore academic ancestry, co-citations, an
 Accelerate comprehension of mathematical formulations, dense methodology sections, and supplemental proofs.
 
 - [NotebookLM](https://notebooklm.google/) — Grounded research notebook designed to synthesize multi-source PDFs, extract cross-document citations, and generate structured audio discussions.
-- [SciSpace (Typeset)](https://typeset.io/) — Interactive paper reader providing highlighted explanations for math formulas, complex tables, and domain jargon.
+- [SciSpace](https://scispace.com/) — Interactive paper reader providing highlighted explanations for math formulas, complex tables, and domain jargon.
 - [ChatPDF](https://www.chatpdf.com/) — Fast, zero-friction conversational interface for querying single research PDFs.
 - [Explainpaper](https://www.explainpaper.com/) — Highlight confusing scientific prose to generate instant plain-English explanations.
 
@@ -126,7 +126,7 @@ Agents that autonomously search the web, formulate hypotheses, and draft literat
 
 - [STORM (Stanford)](https://github.com/stanford-oval/storm) — LLM system executing internet research to generate Wikipedia-style comprehensive reports with citations.
 - [Auto-Researcher](https://github.com/assafelovic/gpt-researcher) — Autonomous agent designed for comprehensive online research on any topic.
-- [ChemCrow](https://github.com/ur-whitelab/chemcrow) — Chemistry-focused agent integrating computational chemistry tools and synthesis planning.
+- [ChemCrow](https://github.com/ur-whitelab/chemcrow-public) — Chemistry-focused agent integrating computational chemistry tools and synthesis planning.
 
 ---
 
