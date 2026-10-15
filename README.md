@@ -2,7 +2,7 @@
 
 > A curated, tiered catalog of state-of-the-art AI tools, literature discovery engines, LaTeX workflows, and computational reproducibility frameworks. Designed to accelerate scientific research across academia and industry - from undergrad literature reviews to autonomous agentic discovery.
 
-> 💡 **Sister Repository:** Looking for agentic IDEs, local coding models, and terminal pair programmers? Check out [Awesome AI Coding Tools](https://github.com/mahmoudsajjadi/awesome-ai-coding-tools).
+> 💡 **Sister Repository:** Looking for agentic IDEs, local coding models, and terminal pair programmers? Check out [**Awesome AI Coding Tools (2026 Taxonomy & Benchmarks)**](https://github.com/mahmoudsajjadi/awesome-ai-coding-tools) — a curated 3-tier catalog of autonomous agents, Model Context Protocol (MCP) servers, and SWE-bench SOTA benchmarks.
 
 ---
 
