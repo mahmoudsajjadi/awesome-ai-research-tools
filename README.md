@@ -1,9 +1,17 @@
-# Awesome AI Research Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Awesome AI Research Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Tiered Roadmap](https://img.shields.io/badge/Roadmap-Discovery_to_Autonomous-purple.svg)](#-choose-your-research-path-progressive-roadmap)
 
-> A curated list of cutting-edge AI tools, frameworks, and workflows designed to supercharge scientific research, literature discovery, LaTeX writing, and experimental reproducibility across academia and industry.
-
+> A curated, tiered catalog of state-of-the-art AI tools, literature discovery engines, LaTeX workflows, and computational reproducibility frameworks. Designed to accelerate scientific research across academia and industry - from undergrad literature reviews to autonomous agentic discovery.
 
 > 💡 **Sister Repository:** Looking for agentic IDEs, local coding models, and terminal pair programmers? Check out [Awesome AI Coding Tools](https://github.com/mahmoudsajjadi/awesome-ai-coding-tools).
+
+---
+
+## ⭐ Why Star This Repository?
+
+- **Tailored for Scientists & Academics:** Evaluated for empirical citation accuracy, hallucination resistance, BibTeX fidelity, and peer-reviewed rigor.
+- **End-to-End Scientific Lifecycle:** Structured across the full lifecycle: literature discovery $\rightarrow$ citation synthesis $\rightarrow$ LaTeX manuscript drafting $\rightarrow$ MLOps & reproducible code.
+- **Publisher Compliance Ready:** Includes curated checklists for Elsevier, Springer-Nature, IEEE, and ACM generative AI author disclosure rules.
+- **100% Open & Community Maintained:** Actively monitored for active repositories, preprint tools, and reproducible computational workflows.
 
 ---
 
@@ -132,15 +140,20 @@ Agents that autonomously search the web, formulate hypotheses, and draft literat
 
 ## ⚖️ Tool Comparison Matrix
 
-| Tool | Primary Use Case | Open Source? | Self-Hostable? | Cost Model |
-| :--- | :--- | :---: | :---: | :--- |
-| **NotebookLM** | PDF synthesis & grounded QA | ❌ | ❌ | Free |
-| **Connected Papers** | Visual citation mapping | ❌ | ❌ | Freemium |
-| **LaTeX-OCR** | Math equation digitization | ✅ | ✅ | Free / Open Source |
-| **Weights & Biases** | Experiment logging & metrics | Freemium (Core) | ✅ (Local/Self-host) | Freemium |
-| **MLflow** | Experiment tracking & models | ✅ | ✅ | Free / Open Source |
-| **STORM** | Automated deep literature reports | ✅ | ✅ | Free / Open Source |
-| **Elicit** | Structured paper data extraction | ❌ | ❌ | Freemium |
+| Tool | Primary Use Case | Category | Open Source? | Self-Hostable? | Cost Model |
+| :--- | :--- | :--- | :---: | :---: | :--- |
+| **NotebookLM** | PDF synthesis & grounded QA | Synthesis | ❌ | ❌ | Free |
+| **Connected Papers** | Visual citation mapping | Graphs | ❌ | ❌ | Freemium |
+| **Semantic Scholar** | Literature search & TLDRs | Search | ❌ | ❌ | Free |
+| **SciSpace** | Math & table explanation | Reading | ❌ | ❌ | Freemium |
+| **LaTeX-OCR** | Math equation digitization | Writing | ✅ | ✅ | Free / Open Source |
+| **Mathpix Snip** | PDF to LaTeX extraction | Writing | ❌ | ❌ | Freemium |
+| **Weights & Biases** | Experiment logging & metrics | MLOps | Freemium (Core) | ✅ (Local/Self-host) | Freemium |
+| **MLflow** | Experiment tracking & models | MLOps | ✅ | ✅ | Free / Open Source |
+| **Papers with Code** | SOTA benchmarks & paper repos | Reproducibility | ✅ | ❌ | Free |
+| **STORM** | Automated deep literature reports | Autonomous | ✅ | ✅ | Free / Open Source |
+| **ChemCrow** | Chemistry synthesis & planning | Autonomous | ✅ | ✅ | Free / Open Source |
+| **Elicit** | Structured paper data extraction | Discovery | ❌ | ❌ | Freemium |
 
 ---
 
