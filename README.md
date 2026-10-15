@@ -4,6 +4,25 @@
 
 ---
 
+## 🗺 Choose Your Research Path: Progressive Roadmap
+
+```mermaid
+flowchart TD
+    Start["What is your research workflow goal?"] --> Q1{"What do you need?"}
+    
+    Q1 -->|"Fast literature review & paper understanding"| L1["🌱 Tier 1: Discovery & Reading<br/>Consensus, Elicit, Semantic Scholar, NotebookLM<br/>• Semantic search over millions of papers<br/>• Instant PDF synthesis & equation explanations"]
+    
+    Q1 -->|"Manuscript drafting & LaTeX typesetting"| L2["⚡ Tier 2: Writing & Equations<br/>LaTeX-OCR, Paperpal, Writefull, Overleaf<br/>• Screen clipping math to LaTeX code<br/>• Academic tone & grammar validation"]
+    
+    Q1 -->|"Reproducible code, MLOps & Autonomous Agents"| L3["🔬 Tier 3: Reproducibility & Autonomous Agents<br/>Weights & Biases, MLflow, Zenodo, STORM<br/>• Experiment tracking & model registries<br/>• Autonomous research synthesis loops"]
+
+    style L1 fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    style L2 fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
+    style L3 fill:#f3e5f5,stroke:#6a1b9a,stroke-width:2px
+```
+
+---
+
 ## 📑 Contents
 
 - [Literature Discovery & Semantic Search](#-literature-discovery--semantic-search)
