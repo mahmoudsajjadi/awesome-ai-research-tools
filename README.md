@@ -185,6 +185,9 @@ Agents that autonomously search the web, formulate hypotheses, and draft literat
 ## 🔗 Related Curations & Peer Directories
 
 - **[Awesome AI Coding Tools (2026 Taxonomy & Benchmarks)](https://github.com/mahmoudsajjadi/awesome-ai-coding-tools)** — Sister catalog of autonomous coding agents, local foundation models, MCP servers, SWE-bench benchmarks, and an [Interactive GPU VRAM Calculator](https://mahmoudsajjadi.github.io/awesome-ai-coding-tools/).
+- **[awesome-ai-for-science](https://github.com/ai4s-research/awesome-ai-for-science)** — Curated list of AI tools, libraries, and frameworks accelerating scientific discovery.
+- **[Awesome-Scientific-Skills](https://github.com/InternScience/Awesome-Scientific-Skills)** — Open curated collection of agent skills for scientific research, academic writing, and bioinformatics.
+- **[awesome-ai-tools](https://github.com/mahseema/awesome-ai-tools)** — Comprehensive directory of top AI tools across productivity, development, and research.
 - **[awesome-ai-research-writing](https://github.com/Leey21/awesome-ai-research-writing)** — Prompt templates and workflows for academic manuscript polishing.
 - **[0x11c11e/awesome-ai-research-tools](https://github.com/0x11c11e/awesome-ai-research-tools)** — Peer index of research assistants and open scholarly APIs.
 
