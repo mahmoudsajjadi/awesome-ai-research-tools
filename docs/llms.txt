@@ -1,0 +1,16 @@
+# Awesome AI Research Tools (2026)
+
+> The comprehensive curated catalog of state-of-the-art AI tools, literature discovery engines, LaTeX workflows, and computational reproducibility frameworks.
+
+## Canonical Resources
+- Repository: https://github.com/mahmoudsajjadi/awesome-ai-research-tools
+- Web Directory: https://mahmoudsajjadi.github.io/awesome-ai-research-tools/
+- Sister Coding Catalog: https://github.com/mahmoudsajjadi/awesome-ai-coding-tools
+
+## Core Categories & SOTA Tools
+- **Literature Discovery**: Consensus, Elicit, Semantic Scholar, Scite.ai, Undermind.
+- **Citation Graphs & Co-Citation**: Connected Papers, Litmaps, ResearchRabbit.
+- **Paper Reading & Synthesis**: SciSpace, NotebookLM, PaperQA2, ChatPDF.
+- **LaTeX & Writing**: LaTeX-OCR, Paperpal, Writefull, Overleaf AI.
+- **Experiment Tracking & MLOps**: Weights & Biases, MLflow, Zenodo, Comet ML.
+- **Autonomous Research Agents**: Stanford STORM, The AI Scientist (Sakana AI), Auto-Researcher.

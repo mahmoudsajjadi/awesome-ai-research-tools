@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome AI Research Tools (2026) | Scientific Discovery & Literature Review Stack</title>
+  <meta name="description" content="Curated 2026 catalog and interactive navigator for AI academic research tools: Consensus, Elicit, SciSpace, PaperQA2, Connected Papers, NotebookLM, LaTeX-OCR, and reproducible MLOps.">
+  <meta name="keywords" content="ai research tools, scientific literature review, consensus, elicit, connected papers, paperqa, zotero, overleaf ai, latex-ocr, mlops, reproducibility">
+  <link rel="canonical" href="https://mahmoudsajjadi.github.io/awesome-ai-research-tools/">
+
+  <!-- OpenGraph / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mahmoudsajjadi.github.io/awesome-ai-research-tools/">
+  <meta property="og:title" content="Awesome AI Research Tools (2026)">
+  <meta property="og:description" content="State-of-the-art AI literature discovery, citation synthesis, and reproducible computational workflows.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Awesome AI Research Tools (2026)">
+  <meta name="twitter:description" content="State-of-the-art AI literature discovery, citation synthesis, and reproducible computational workflows.">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Awesome AI Research Tools Stack",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Cross-platform",
+        "url": "https://mahmoudsajjadi.github.io/awesome-ai-research-tools/",
+        "author": {
+          "@type": "Person",
+          "name": "Seyed Mahmoud Sajjadi Mohammadabadi",
+          "url": "https://github.com/mahmoudsajjadi"
+        },
+        "description": "Interactive taxonomy and selector for scientific literature discovery, citation graphing, LaTeX writing, and autonomous research agents."
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What are the best AI tools for academic literature reviews in 2026?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The leading tools in 2026 are Consensus (for extracting peer-reviewed consensus with yes/no breakdowns), Elicit (for automating systematic literature reviews and table extraction), SciSpace (for citation tracing and PDF explanations), and PaperQA2 (for high-accuracy retrieval over local paper collections)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which AI tools are permitted by IEEE, ACM, and Springer-Nature?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Major publishers permit AI tools for language editing and grammar polishing (e.g., Paperpal, Writefull, Overleaf AI) provided authors explicitly declare their usage in the methodology or acknowledgments. Generative AI cannot be listed as an author."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --accent: #58a6ff;
+      --accent-hover: #1f6feb;
+      --text: #c9d1d9;
+      --text-muted: #8b949e;
+      --success: #3fb950;
+      --code-bg: #0a0c10;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    body { background-color: var(--bg); color: var(--text); padding: 2rem 1rem; line-height: 1.5; }
+    .container { max-width: 950px; margin: 0 auto; }
+    header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); padding-bottom: 1.5rem; margin-bottom: 2rem; flex-wrap: wrap; gap: 1rem; }
+    h1 { font-size: 1.8rem; color: #fff; display: flex; align-items: center; gap: 0.5rem; }
+    .btn-group { display: flex; gap: 0.5rem; }
+    .star-btn { background: #21262d; border: 1px solid var(--border); color: #fff; padding: 0.5rem 1rem; border-radius: 6px; text-decoration: none; font-size: 0.9rem; font-weight: 600; display: inline-flex; align-items: center; gap: 0.4rem; transition: background 0.2s; }
+    .star-btn:hover { background: #30363d; border-color: #8b949e; }
+    .sister-btn { background: #1f6feb22; border: 1px solid #1f6feb; color: #58a6ff; padding: 0.5rem 1rem; border-radius: 6px; text-decoration: none; font-size: 0.9rem; font-weight: 600; display: inline-flex; align-items: center; gap: 0.4rem; }
+    .sister-btn:hover { background: #1f6feb44; }
+    .lead { color: var(--text-muted); margin-bottom: 2rem; font-size: 1.05rem; }
+
+    .tabs { display: flex; gap: 0.5rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+    .tab-btn { background: #161b22; border: 1px solid var(--border); color: var(--text); padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-size: 0.9rem; font-weight: 500; transition: all 0.2s; }
+    .tab-btn.active, .tab-btn:hover { background: #1f6feb; color: #fff; border-color: #1f6feb; }
+
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; margin-bottom: 2.5rem; }
+    .tool-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.25rem; transition: transform 0.15s, border-color 0.15s; }
+    .tool-card:hover { transform: translateY(-2px); border-color: var(--accent); }
+    .tool-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.5rem; }
+    .tool-title { font-size: 1.15rem; color: #fff; text-decoration: none; font-weight: 600; }
+    .tool-title:hover { color: var(--accent); }
+    .badge { font-size: 0.75rem; padding: 0.2rem 0.5rem; border-radius: 12px; background: #21262d; color: var(--text-muted); font-weight: 600; }
+    .badge.free { background: #23863622; color: #3fb950; border: 1px solid #238636; }
+    .badge.academic { background: #a371f722; color: #d2a8ff; border: 1px solid #8957e5; }
+    .tool-desc { font-size: 0.9rem; color: var(--text-muted); line-height: 1.45; margin-bottom: 0.75rem; }
+    .tool-meta { font-size: 0.8rem; color: #8b949e; display: flex; gap: 0.5rem; flex-wrap: wrap; }
+    .tool-tag { background: #0a0c10; padding: 0.15rem 0.4rem; border-radius: 4px; border: 1px solid var(--border); }
+
+    .banner { background: #161b22; border: 1px solid var(--border); border-left: 4px solid var(--accent); padding: 1.25rem; border-radius: 6px; margin-bottom: 2rem; }
+    .banner h3 { color: #fff; font-size: 1rem; margin-bottom: 0.4rem; }
+    .banner p { color: var(--text-muted); font-size: 0.9rem; }
+
+    footer { text-align: center; margin-top: 3rem; color: var(--text-muted); font-size: 0.85rem; border-top: 1px solid var(--border); padding-top: 1.5rem; }
+    footer a { color: var(--accent); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🔬 Awesome AI Research Tools (2026)</h1>
+      <div class="btn-group">
+        <a class="sister-btn" href="https://github.com/mahmoudsajjadi/awesome-ai-coding-tools" target="_blank">
+          💻 AI Coding Tools
+        </a>
+        <a class="star-btn" href="https://github.com/mahmoudsajjadi/awesome-ai-research-tools" target="_blank">
+          ⭐ Star on GitHub
+        </a>
+      </div>
+    </header>
+
+    <p class="lead">
+      The authoritative 2026 taxonomy of academic literature discovery engines, citation synthesis graphs, LaTeX equation digitizers, and computational reproducibility checklists.
+    </p>
+
+    <div class="banner">
+      <h3>🚀 Looking for Coding Assistants & Local Foundation Models?</h3>
+      <p>Explore our sister repository: <a href="https://github.com/mahmoudsajjadi/awesome-ai-coding-tools" style="color:var(--accent); font-weight:600;">Awesome AI Coding Tools (2026)</a> — covering Claude Code, Aider, Cursor, Qwen 2.5 Coder VRAM sizing, and SWE-bench SOTA benchmarks.</p>
+    </div>
+
+    <div class="tabs">
+      <button class="tab-btn active" onclick="filterCards('all')">All Tools (24)</button>
+      <button class="tab-btn" onclick="filterCards('discovery')">Literature Discovery</button>
+      <button class="tab-btn" onclick="filterCards('citations')">Citation Graphs</button>
+      <button class="tab-btn" onclick="filterCards('reading')">PDF Reading & Synthesis</button>
+      <button class="tab-btn" onclick="filterCards('writing')">LaTeX & Writing</button>
+      <button class="tab-btn" onclick="filterCards('reproducibility')">Reproducibility & MLOps</button>
+      <button class="tab-btn" onclick="filterCards('agents')">Autonomous Agents</button>
+    </div>
+
+    <div class="grid" id="toolsGrid">
+      <!-- Literature Discovery -->
+      <div class="tool-card" data-cat="discovery">
+        <div class="tool-header">
+          <a class="tool-title" href="https://consensus.app/" target="_blank">Consensus</a>
+          <span class="badge free">Free Tier</span>
+        </div>
+        <p class="tool-desc">AI search engine extracting empirical findings, study sample sizes, and yes/no consensus meters directly from 200M+ peer-reviewed papers.</p>
+        <div class="tool-meta">
+          <span class="tool-tag">Semantic Search</span>
+          <span class="tool-tag">Empirical Claims</span>
+        </div>
+      </div>
+
+      <div class="tool-card" data-cat="discovery">
+        <div class="tool-header">
+          <a class="tool-title" href="https://elicit.com/" target="_blank">Elicit</a>
+          <span class="badge academic">Systematic Reviews</span>
+        </div>
+        <p class="tool-desc">Automated research assistant that extracts structured data columns (population, methodology, outcome metrics) across batch PDF uploads.</p>
+        <div class="tool-meta">
+          <span class="tool-tag">Table Extraction</span>
+          <span class="tool-tag">Meta-Analysis</span>
+        </div>
+      </div>
+
+      <div class="tool-card" data-cat="discovery">
+        <div class="tool-header">
+          <a class="tool-title" href="https://www.semanticscholar.org/" target="_blank">Semantic Scholar</a>
+          <span class="badge free">100% Free</span>
+        </div>
+        <p class="tool-desc">Allen Institute's academic engine providing citation velocity, influential citation filters, and automated one-sentence TLDR summaries.</p>
+        <div class="tool-meta">
+          <span class="tool-tag">Citation Velocity</span>
+          <span class="tool-tag">API Access</span>
+        </div>
+      </div>
+
+      <div class="tool-card" data-cat="discovery">
+        <div class="tool-header">
+          <a class="tool-title" href="https://scite.ai/" target="_blank">Scite.ai</a>
+          <span class="badge academic">Smart Citations</span>
+        </div>
+        <p class="tool-desc">Smart citation index analyzing citation context to classify whether citing studies support, mention, or contrast empirical findings.</p>
+        <div class="tool-meta">
+          <span class="tool-tag">Citation Sentiment</span>
+          <span class="tool-tag">Disputed Claims</span>
+        </div>
+      </div>
+
+      <!-- Citation Graphs -->
+      <div class="tool-card" data-cat="citations">
+        <div class="tool-header">
+          <a class="tool-title" href="https://www.connectedpapers.com/" target="_blank">Connected Papers</a>
+          <span class="badge free">Visual Canvas</span>
+        </div>
+        <p class="tool-desc">Generates visual 2D similarity graphs linking co-cited papers, derivative works, and prior seminal literature based on semantic relatedness.</p>
+        <div class="tool-meta">
+          <span class="tool-tag">Prior Art</span>
+          <span class="tool-tag">Co-Citation</span>
+        </div>
+      </div>
+
+      <div class="tool-card" data-cat="citations">
+        <div class="tool-header">
+          <a class="tool-title" href="https://www.litmaps.com/" target="_blank">Litmaps</a>
+          <span class="badge free">Timeline Map</span>
+        </div>
+        <p class="tool-desc">Interactive citation map generator tracking chronological literature evolution and sending email alerts for newly published related papers.</p>
+        <div class="tool-meta">
+          <span class="tool-tag">Timeline</span>
+          <span class="tool-tag">Monitoring</span>
+        </div>
+      </div>
+
+      <div class="tool-card" data-cat="citations">
+        <div class="tool-header">
+          <a class="tool-title" href="https://www.researchrabbit.ai/" target="_blank">ResearchRabbit</a>
+          <span class="badge free">100% Free</span>
+        </div>
+        <p class="tool-desc">Interactive Spotify-like visual canvas allowing dynamic jumping between papers, author collaborations, and institutional networks.</p>
+        <div class="tool-meta">
+          <span class="tool-tag">Zotero Sync</span>
+          <span class="tool-tag">Collaboration Graph</span>
+        </div>
+      </div>
+
+      <!-- PDF Reading & Synthesis -->
+      <div class="tool-card" data-cat="reading">
+        <div class="tool-header">
+          <a class="tool-title" href="https://typeset.io/" target="_blank">SciSpace (Typeset)</a>
+          <span class="badge free">Interactive PDF</span>
+        </div>
+        <p class="tool-desc">PDF co-pilot enabling highlight-to-explain math formulas, table interpretations, and cross-paper comparative question answering.</p>
+        <div class="tool-meta">
+          <span class="tool-tag">Formula Explainer</span>
+          <span class="tool-tag">Multi-PDF</span>
+        </div>
+      </div>
+
+      <div class="tool-card" data-cat="reading">
+        <div class="tool-header">
+          <a class="tool-title" href="https://notebooklm.google.com/" target="_blank">NotebookLM</a>
+          <span class="badge free">Grounded Audio</span>
+        </div>
+        <p class="tool-desc">Strict source-grounded workspace supporting up to 50 sources, multi-document synthesis, and audio deep-dive discussion generation.</p>
+        <div class="tool-meta">
+          <span class="tool-tag">Zero Hallucination</span>
+          <span class="tool-tag">Audio Synthesis</span>
+        </div>
+      </div>
+
+      <div class="tool-card" data-cat="reading">
+        <div class="tool-header">
+          <a class="tool-title" href="https://github.com/Future-House/paper-qa" target="_blank">PaperQA2</a>
+          <span class="badge free">Open Source</span>
+        </div>
+        <p class="tool-desc">High-precision question-answering package over local scientific papers with verifiable in-text citation placement and confidence scoring.</p>
+        <div class="tool-meta">
+          <span class="tool-tag">Python CLI</span>
+          <span class="tool-tag">Verified Sources</span>
+        </div>
+      </div>
+
+      <!-- LaTeX & Writing -->
+      <div class="tool-card" data-cat="writing">
+        <div class="tool-header">
+          <a class="tool-title" href="https://github.com/lukas-blecher/LaTeX-OCR" target="_blank">LaTeX-OCR</a>
+          <span class="badge free">Open Source</span>
+        </div>
+        <p class="tool-desc">Screen-clip equation tool converting mathematical images or handwritten notes directly into compilable LaTeX equation code.</p>
+        <div class="tool-meta">
+          <span class="tool-tag">Offline</span>
+          <span class="tool-tag">ViT Transformer</span>
+        </div>
+      </div>
+
+      <div class="tool-card" data-cat="writing">
+        <div class="tool-header">
+          <a class="tool-title" href="https://www.paperpal.com/" target="_blank">Paperpal</a>
+          <span class="badge academic">Publisher Ready</span>
+        </div>
+        <p class="tool-desc">Academic grammar editor trained on millions of published manuscripts; validates academic tone, passive voice, and submission compliance.</p>
+        <div class="tool-meta">
+          <span class="tool-tag">Word / Overleaf</span>
+          <span class="tool-tag">Style Checks</span>
+        </div>
+      </div>
+
+      <!-- Reproducibility & MLOps -->
+      <div class="tool-card" data-cat="reproducibility">
+        <div class="tool-header">
+          <a class="tool-title" href="https://wandb.ai/" target="_blank">Weights & Biases</a>
+          <span class="badge free">Academic Free</span>
+        </div>
+        <p class="tool-desc">Standard tracking library for hyperparameter tuning, loss curves, model checkpoint artifact lineage, and reproducibility logs.</p>
+        <div class="tool-meta">
+          <span class="tool-tag">MLOps</span>
+          <span class="tool-tag">Lineage</span>
+        </div>
+      </div>
+
+      <div class="tool-card" data-cat="reproducibility">
+        <div class="tool-header">
+          <a class="tool-title" href="https://zenodo.org/" target="_blank">Zenodo</a>
+          <span class="badge free">CERN Backed</span>
+        </div>
+        <p class="tool-desc">Open research repository minting citable Digital Object Identifiers (DOIs) for software releases, raw datasets, and supplemental models.</p>
+        <div class="tool-meta">
+          <span class="tool-tag">Permanent DOI</span>
+          <span class="tool-tag">FAIR Standards</span>
+        </div>
+      </div>
+
+      <!-- Autonomous Agents -->
+      <div class="tool-card" data-cat="agents">
+        <div class="tool-header">
+          <a class="tool-title" href="https://github.com/stanford-oval/storm" target="_blank">Stanford STORM</a>
+          <span class="badge free">Open Source</span>
+        </div>
+        <p class="tool-desc">LLM-powered research agent discovering multiple perspectives, executing perspective-guided search, and generating structured literature surveys.</p>
+        <div class="tool-meta">
+          <span class="tool-tag">Multi-Agent</span>
+          <span class="tool-tag">Survey Writing</span>
+        </div>
+      </div>
+
+      <div class="tool-card" data-cat="agents">
+        <div class="tool-header">
+          <a class="tool-title" href="https://github.com/SakanaAI/AI-Scientist" target="_blank">The AI Scientist</a>
+          <span class="badge free">Sakana AI</span>
+        </div>
+        <p class="tool-desc">Fully autonomous research pipeline proposing scientific hypotheses, writing experiment code, running executions, and compiling LaTeX papers.</p>
+        <div class="tool-meta">
+          <span class="tool-tag">End-to-End</span>
+          <span class="tool-tag">Auto-Reviewer</span>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        Curated with ❤️ by <a href="https://github.com/mahmoudsajjadi">Mahmoud Sajjadi</a> • 
+        Licensed under <a href="https://github.com/mahmoudsajjadi/awesome-ai-research-tools/blob/main/LICENSE">MIT</a> • 
+        <a href="https://github.com/mahmoudsajjadi/awesome-ai-research-tools">GitHub Repository</a> • 
+        <a href="https://github.com/mahmoudsajjadi/awesome-ai-coding-tools">Coding Tools Catalog</a>
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    function filterCards(cat) {
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+      event.target.classList.add('active');
+      const cards = document.querySelectorAll('.tool-card');
+      cards.forEach(card => {
+        if (cat === 'all' || card.getAttribute('data-cat') === cat) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+  </script>
+</body>
+</html>
