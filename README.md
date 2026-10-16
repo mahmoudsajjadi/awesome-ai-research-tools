@@ -180,6 +180,34 @@ Agents that autonomously search the web, formulate hypotheses, and draft literat
 }
 ```
 
+## 📄 Selected Research & Foundational Publications
+
+Authored and co-authored by [**Mahmoud Sajjadi**](https://scholar.google.com/citations?user=tkhCR5IAAAAJ&hl=en) in machine learning, foundation model evaluation, distributed AI, and federated learning:
+
+1. **A Survey of Large Language Models: Evolution, Architectures, Adaptation, Benchmarking, Applications, Challenges, and Societal Implications**  
+   *S. M. Sajjadi Mohammadabadi, B. C. Kara, C. Eyupoglu, C. Uzay, M. S. Tosun, et al.*  
+   *Electronics* 14 (18), 3580 (2025). [[DOI / Paper](https://doi.org/10.3390/electronics14183580)] • [[Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tkhCR5IAAAAJ&citation_for_view=tkhCR5IAAAAJ:j3f4tGmQtD8C)]
+
+2. **A Survey on Self-Supervised Learning: Recent Advances and Open Problems**  
+   *J. Zhang, L. Yang, S. M. Sajjadi Mohammadabadi, F. Yan.*  
+   *Neurocomputing*, 131409 (2025). [[DOI / Paper](https://doi.org/10.1016/j.neucom.2025.131409)] • [[Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tkhCR5IAAAAJ&citation_for_view=tkhCR5IAAAAJ:e5wmG9Sq2KIC)]
+
+3. **Speed Up Federated Learning in Heterogeneous Environments: A Dynamic Tiering Approach**  
+   *S. M. Sajjadi Mohammadabadi, S. Zawad, F. Yan, L. Yang.*  
+   *IEEE Internet of Things Journal* 12 (5), 5026-5035 (2024). [[IEEE Xplore](https://doi.org/10.1109/JIOT.2024.3468511)] • [[Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tkhCR5IAAAAJ&citation_for_view=tkhCR5IAAAAJ:mVmsd5A6BfQC)]
+
+4. **Communication-Efficient Training Workload Balancing for Decentralized Multi-Agent Learning**  
+   *S. M. Sajjadi Mohammadabadi, L. Yang, F. Yan, J. Zhang.*  
+   *IEEE 44th International Conference on Distributed Computing Systems (ICDCS)* (2024). [[IEEE Xplore](https://doi.org/10.1109/ICDCS60910.2024.00062)] • [[Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tkhCR5IAAAAJ&citation_for_view=tkhCR5IAAAAJ:ldfaerwXgEUC)]
+
+5. **Generative Artificial Intelligence for Distributed Learning to Enhance Smart Grid Communication**  
+   *S. M. Sajjadi Mohammadabadi, M. Entezami, A. K. Moghaddam, M. Orangian, et al.*  
+   *International Journal of Intelligent Networks* 5, 267-274 (2024). [[DOI / Paper](https://doi.org/10.1016/j.ijin.2024.09.002)] • [[Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tkhCR5IAAAAJ&citation_for_view=tkhCR5IAAAAJ:eQOLeE2rZwMC)]
+
+6. **A Survey on Hallucination in Large Language Models: Definitions, Detection, and Mitigation**  
+   *S. M. Sajjadi Mohammadabadi, B. C. Kara, C. Eyupoglu, O. Karakus.*  
+   *Preprints* (2025). [[Preprints.org](https://doi.org/10.20944/preprints202510.0000.v1)] • [[Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tkhCR5IAAAAJ&citation_for_view=tkhCR5IAAAAJ:maZDTaKrznsC)]
+
 ---
 
 ## 🔗 Related Curations & Peer Directories
