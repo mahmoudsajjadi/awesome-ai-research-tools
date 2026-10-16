@@ -1,0 +1,31 @@
+name: Automated Search Engine Indexing (IndexNow)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'README.md'
+      - 'docs/**'
+  schedule:
+    - cron: '0 12 * * 1'
+  workflow_dispatch:
+
+jobs:
+  ping-indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping IndexNow API
+        run: |
+          curl -s -X POST https://api.indexnow.org/indexnow \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d '{
+              "host": "mahmoudsajjadi.github.io",
+              "key": "25a1b920a0c11be947cc6",
+              "keyLocation": "https://mahmoudsajjadi.github.io/awesome-ai-research-tools/25a1b920a0c11be947cc6.txt",
+              "urlList": [
+                "https://mahmoudsajjadi.github.io/awesome-ai-research-tools/",
+                "https://mahmoudsajjadi.github.io/awesome-ai-research-tools/sitemap.xml",
+                "https://mahmoudsajjadi.github.io/awesome-ai-research-tools/llms.txt"
+              ]
+            }'
+          echo "Research tools IndexNow ping completed successfully."
