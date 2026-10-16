@@ -13,9 +13,14 @@
   <meta property="og:url" content="https://mahmoudsajjadi.github.io/awesome-ai-research-tools/">
   <meta property="og:title" content="Awesome AI Research Tools (2026)">
   <meta property="og:description" content="State-of-the-art AI literature discovery, citation synthesis, and reproducible computational workflows.">
+  <meta property="og:image" content="https://raw.githubusercontent.com/mahmoudsajjadi/awesome-ai-research-tools/main/assets/social-card.svg">
+  <meta property="og:image:type" content="image/svg+xml">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Awesome AI Research Tools (2026)">
   <meta name="twitter:description" content="State-of-the-art AI literature discovery, citation synthesis, and reproducible computational workflows.">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/mahmoudsajjadi/awesome-ai-research-tools/main/assets/social-card.svg">
 
   <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">
@@ -131,6 +136,13 @@
     <div class="banner">
       <h3>🚀 Looking for Coding Assistants & Local Foundation Models?</h3>
       <p>Explore our sister repository: <a href="https://github.com/mahmoudsajjadi/awesome-ai-coding-tools" style="color:var(--accent); font-weight:600;">Awesome AI Coding Tools (2026)</a> — covering Claude Code, Aider, Cursor, Qwen 2.5 Coder VRAM sizing, and SWE-bench SOTA benchmarks.</p>
+    </div>
+
+    <!-- Quick Search & BibTeX Bar -->
+    <div style="display: flex; gap: 0.75rem; margin-bottom: 1.25rem; flex-wrap: wrap;">
+      <input type="text" id="researchSearch" placeholder="Filter tools, tasks, tags (e.g. Consensus, LaTeX, Zotero, Citation, MLOps)..." oninput="searchResearchTools()" style="flex: 1; min-width: 250px; background: #161b22; border: 1px solid var(--border); color: #fff; padding: 0.6rem 0.85rem; border-radius: 6px; font-size: 0.95rem; outline: none;">
+      <button class="star-btn" style="cursor: pointer;" onclick="copyBibtex()">📋 Copy BibTeX Citation</button>
+      <button class="star-btn" style="cursor: pointer; background: #238636; border-color: #238636;" onclick="downloadBibtex()">📥 Download .bib</button>
     </div>
 
     <div class="tabs">
@@ -370,12 +382,54 @@
   </div>
 
   <script>
+    const bibtexData = `@software{sajjadi2026awesome_research_tools,
+  author = {Seyed Mahmoud Sajjadi Mohammadabadi},
+  title = {Awesome AI Research Tools: A Curated Taxonomy of Literature Discovery, Citation Synthesis, and Reproducible MLOps},
+  year = {2026},
+  url = {https://github.com/mahmoudsajjadi/awesome-ai-research-tools},
+  version = {1.0.0},
+  orcid = {0009-0007-7427-4402}
+}`;
+
+    function copyBibtex() {
+      navigator.clipboard.writeText(bibtexData);
+      alert("BibTeX citation copied to clipboard!");
+    }
+
+    function downloadBibtex() {
+      const blob = new Blob([bibtexData], { type: 'application/x-bibtex;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'awesome-ai-research-tools.bib';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+    function searchResearchTools() {
+      const q = (document.getElementById('researchSearch').value || '').toLowerCase().trim();
+      const cards = document.querySelectorAll('.tool-card');
+      cards.forEach(card => {
+        const text = card.innerText.toLowerCase();
+        if (!q || text.includes(q)) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
     function filterCards(cat) {
       document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
       event.target.classList.add('active');
       const cards = document.querySelectorAll('.tool-card');
+      const q = (document.getElementById('researchSearch').value || '').toLowerCase().trim();
       cards.forEach(card => {
-        if (cat === 'all' || card.getAttribute('data-cat') === cat) {
+        const matchesCat = (cat === 'all' || card.getAttribute('data-cat') === cat);
+        const matchesQuery = (!q || card.innerText.toLowerCase().includes(q));
+        if (matchesCat && matchesQuery) {
           card.style.display = 'block';
         } else {
           card.style.display = 'none';

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg-r" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#11192e"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="accent-grad-r" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#79c0ff"/>
+      <stop offset="50%" stop-color="#d2a8ff"/>
+      <stop offset="100%" stop-color="#ff7b72"/>
+    </linearGradient>
+    <filter id="glow-r" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg-r)"/>
+  <rect x="30" y="30" width="1140" height="570" rx="16" fill="none" stroke="#30363d" stroke-width="2"/>
+
+  <g transform="translate(80, 85)">
+    <!-- Category Pill Badge -->
+    <rect x="0" y="0" width="295" height="36" rx="18" fill="#a371f722" stroke="#a371f7" stroke-width="1.5"/>
+    <circle cx="18" cy="18" r="6" fill="#d2a8ff" filter="url(#glow-r)"/>
+    <text x="34" y="23" fill="#d2a8ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1.5">ACADEMIC LIFECYCLE 2026</text>
+
+    <!-- Star Pill Badge -->
+    <rect x="310" y="0" width="200" height="36" rx="18" fill="#23863622" stroke="#238636" stroke-width="1.5"/>
+    <text x="326" y="23" fill="#3fb950" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif" font-size="14" font-weight="600">⭐ GitHub Awesome</text>
+  </g>
+
+  <!-- Title -->
+  <text x="80" y="215" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif" font-size="58" font-weight="800" letter-spacing="-1.5">Awesome AI Research Tools</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="270" fill="url(#accent-grad-r)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif" font-size="28" font-weight="600">Literature Discovery • Citation Graphs • LaTeX Math OCR • Reproducibility</text>
+
+  <!-- Feature Grid -->
+  <g transform="translate(80, 320)">
+    <!-- Box 1 -->
+    <rect x="0" y="0" width="240" height="155" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+    <text x="20" y="35" fill="#58a6ff" font-family="sans-serif" font-size="16" font-weight="700">🔍 Literature Discovery</text>
+    <text x="20" y="65" fill="#8b949e" font-family="sans-serif" font-size="14">• Consensus &amp; Elicit</text>
+    <text x="20" y="92" fill="#8b949e" font-family="sans-serif" font-size="14">• Semantic Scholar</text>
+    <text x="20" y="119" fill="#8b949e" font-family="sans-serif" font-size="14">• Scite Smart Citations</text>
+
+    <!-- Box 2 -->
+    <rect x="265" y="0" width="240" height="155" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+    <text x="285" y="35" fill="#d2a8ff" font-family="sans-serif" font-size="16" font-weight="700">🕸️ Citation Graphs</text>
+    <text x="285" y="65" fill="#8b949e" font-family="sans-serif" font-size="14">• Connected Papers</text>
+    <text x="285" y="92" fill="#8b949e" font-family="sans-serif" font-size="14">• Litmaps Prior Art</text>
+    <text x="285" y="119" fill="#8b949e" font-family="sans-serif" font-size="14">• ResearchRabbit Sync</text>
+
+    <!-- Box 3 -->
+    <rect x="530" y="0" width="240" height="155" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+    <text x="550" y="35" fill="#3fb950" font-family="sans-serif" font-size="16" font-weight="700">📝 Writing &amp; LaTeX OCR</text>
+    <text x="550" y="65" fill="#8b949e" font-family="sans-serif" font-size="14">• LaTeX-OCR / Mathpix</text>
+    <text x="550" y="92" fill="#8b949e" font-family="sans-serif" font-size="14">• Overleaf AI &amp; Paperpal</text>
+    <text x="550" y="119" fill="#8b949e" font-family="sans-serif" font-size="14">• BibTeX Auto-generation</text>
+
+    <!-- Box 4 -->
+    <rect x="795" y="0" width="240" height="155" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+    <text x="815" y="35" fill="#ffa657" font-family="sans-serif" font-size="16" font-weight="700">⚖️ Publisher Compliance</text>
+    <text x="815" y="65" fill="#8b949e" font-family="sans-serif" font-size="14">• IEEE, ACM, Elsevier Rules</text>
+    <text x="815" y="92" fill="#8b949e" font-family="sans-serif" font-size="14">• W&amp;B / MLflow Tracking</text>
+    <text x="815" y="119" fill="#8b949e" font-family="sans-serif" font-size="14">• Zenodo DOI Archiving</text>
+  </g>
+
+  <!-- Footer Info -->
+  <line x1="80" y1="515" x2="1120" y2="515" stroke="#30363d" stroke-width="1"/>
+  <text x="80" y="555" fill="#c9d1d9" font-family="sans-serif" font-size="18" font-weight="600">Curated &amp; Maintained by Seyed Mahmoud Sajjadi Mohammadabadi (@mahmoudsajjadi)</text>
+  <text x="1120" y="555" text-anchor="end" fill="#d2a8ff" font-family="sans-serif" font-size="16" font-weight="600">mahmoudsajjadi.github.io/awesome-ai-research-tools</text>
+</svg>
