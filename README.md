@@ -182,9 +182,23 @@ Agents that autonomously search the web, formulate hypotheses, and draft literat
 
 ---
 
+## 🔗 Related Curations & Peer Directories
+
+- **[Awesome AI Coding Tools (2026 Taxonomy & Benchmarks)](https://github.com/mahmoudsajjadi/awesome-ai-coding-tools)** — Sister catalog of autonomous coding agents, local foundation models, MCP servers, SWE-bench benchmarks, and an [Interactive GPU VRAM Calculator](https://mahmoudsajjadi.github.io/awesome-ai-coding-tools/).
+- **[awesome-ai-research-writing](https://github.com/Leey21/awesome-ai-research-writing)** — Prompt templates and workflows for academic manuscript polishing.
+- **[0x11c11e/awesome-ai-research-tools](https://github.com/0x11c11e/awesome-ai-research-tools)** — Peer index of research assistants and open scholarly APIs.
+
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please check out [CONTRIBUTING.md](CONTRIBUTING.md) for submission criteria before opening a Pull Request.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=mahmoudsajjadi/awesome-ai-research-tools&type=Date)](https://star-history.com/#mahmoudsajjadi/awesome-ai-research-tools&Date)
 
 ---
 
