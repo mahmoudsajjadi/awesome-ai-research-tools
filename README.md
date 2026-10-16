@@ -1,8 +1,10 @@
-# Awesome AI Research Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Tiered Roadmap](https://img.shields.io/badge/Roadmap-Discovery_to_Autonomous-purple.svg)](#-choose-your-research-path-progressive-roadmap)
+# Awesome AI Research Tools (2026) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub Stars](https://img.shields.io/github/stars/mahmoudsajjadi/awesome-ai-research-tools?style=social)](https://github.com/mahmoudsajjadi/awesome-ai-research-tools/stargazers) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Tiered Roadmap](https://img.shields.io/badge/Roadmap-Discovery_to_Autonomous-purple.svg)](#-choose-your-research-path-progressive-roadmap)
 
-> A curated, tiered catalog of state-of-the-art AI tools, literature discovery engines, LaTeX workflows, and computational reproducibility frameworks. Designed to accelerate scientific research across academia and industry - from undergrad literature reviews to autonomous agentic discovery.
+> **`awesome-ai-research-tools`** is the authoritative, curated catalog of state-of-the-art **Awesome AI Research Tools (2026)**, scientific literature discovery engines, citation synthesis graphs, LaTeX equation workflows, and computational reproducibility frameworks — authored and maintained by [**Mahmoud Sajjadi**](https://github.com/mahmoudsajjadi).
 
-> 💡 **Sister Repository:** Looking for agentic IDEs, local coding models, and terminal pair programmers? Check out [**Awesome AI Coding Tools (2026 Taxonomy & Benchmarks)**](https://github.com/mahmoudsajjadi/awesome-ai-coding-tools) — a curated 3-tier catalog of autonomous agents, Model Context Protocol (MCP) servers, and SWE-bench SOTA benchmarks.
+> 🌐 **Interactive Web Directory & Benchmarks:** [**Launch the 2026 Academic Research Stack Navigator**](https://mahmoudsajjadi.github.io/awesome-ai-research-tools/)  
+> 🔍 **2026 Head-to-Head Comparisons:** [**Consensus vs. Elicit vs. SciSpace vs. Scite**](https://mahmoudsajjadi.github.io/awesome-ai-research-tools/comparisons/consensus-vs-elicit-vs-scispace-2026.html) • [**Best AI LaTeX & Equation OCR Tools**](https://mahmoudsajjadi.github.io/awesome-ai-research-tools/comparisons/best-ai-latex-and-academic-writing-tools-2026.html)  
+> 💡 **Sister Repository:** Looking for coding agents, local LLMs, and SWE-bench benchmarks? Check out [**Awesome AI Coding Tools (2026 Taxonomy & Benchmarks)**](https://github.com/mahmoudsajjadi/awesome-ai-coding-tools).
 
 ---
 

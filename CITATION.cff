@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you reference or build upon this catalog in your scientific workflows, literature reviews, or articles, please cite it as below."
+authors:
+  - family-names: "Sajjadi Mohammadabadi"
+    given-names: "Seyed Mahmoud"
+    orcid: "https://orcid.org/0009-0007-7427-4402"
+    affiliation: "University of Nevada, Reno"
+title: "Awesome AI Research Tools: A Curated Taxonomy of Literature Discovery, Citation Synthesis, and Reproducible MLOps"
+version: 1.0.0
+date-released: 2026-10-15
+url: "https://github.com/mahmoudsajjadi/awesome-ai-research-tools"
+repository-code: "https://github.com/mahmoudsajjadi/awesome-ai-research-tools"
+keywords:
+  - academic-research
+  - literature-review
+  - scientific-discovery
+  - citation-graphs
+  - reproducibility
+  - mlops
+  - latex
+license: MIT
