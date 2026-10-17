@@ -213,7 +213,11 @@ Authored and co-authored by [**Mahmoud Sajjadi**](https://scholar.google.com/cit
    *S. M. Sajjadi Mohammadabadi, B. C. Kara, C. Eyupoglu, O. Karakus.*  
    *arXiv preprint arXiv:2604.09912* (2026). [[Interactive Page & BibTeX](https://mahmoudsajjadi.github.io/papers/survey-hallucination-large-language-models.html)] • [[arXiv](https://arxiv.org/abs/2604.09912)]
 
-> 🏛️ **Full Citation Archive**: Access all 20 peer-reviewed papers, Schema.org metadata, and 1-click citation widgets at the [**Mahmoud Sajjadi Academic Research Hub**](https://mahmoudsajjadi.github.io/research-hub.html).
+8. **Sustainable Smart Grid Resilience and Renewable Integration Using Multi-Agent Reinforcement Learning**  
+   *S. M. Sajjadi Mohammadabadi, S. M. Sajjadi.*  
+   *Sustainability* 18 (20), 10574 (2026). [[Interactive Page & BibTeX](https://mahmoudsajjadi.github.io/papers/sustainable-smart-grid-resilience-marl.html)] • [[MDPI Open Access](https://www.mdpi.com/2071-1050/18/20/10574)] • [[DOI: 10.3390/su182010574](https://doi.org/10.3390/su182010574)]
+
+> 🏛️ **Full Citation Archive**: Access all 21 peer-reviewed papers, Schema.org metadata, and 1-click citation widgets at the [**Mahmoud Sajjadi Academic Research Hub**](https://mahmoudsajjadi.github.io/research-hub.html).
 
 ---
 
