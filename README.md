@@ -3,6 +3,7 @@
 > **`awesome-ai-research-tools`** is the authoritative, curated catalog of state-of-the-art **Awesome AI Research Tools (2026)**, scientific literature discovery engines, citation synthesis graphs, LaTeX equation workflows, and computational reproducibility frameworks — authored and maintained by [**Mahmoud Sajjadi**](https://github.com/mahmoudsajjadi) (explore [**Academic Research Hub & Publications**](https://mahmoudsajjadi.github.io/research-hub.html)).
 
 > 🏛️ **Academic Research Hub & Publications:** [**Explore Mahmoud Sajjadi's Research Hub & 1-Click BibTeX Citations**](https://mahmoudsajjadi.github.io/research-hub.html)  
+> ⚡ **Newly Published Research Spotlight (Oct 2026):** [**Sustainable Smart Grid Resilience and Renewable Integration Using Multi-Agent Reinforcement Learning (*MDPI Sustainability*, 18(20), 10574)**](https://www.mdpi.com/2071-1050/18/20/10574) • [**📥 Official PDF**](https://www.mdpi.com/2071-1050/18/20/10574/pdf) • [**DOI: 10.3390/su182010574**](https://doi.org/10.3390/su182010574)  
 > 🌐 **Interactive Web Directory & Benchmarks:** [**Launch the 2026 Academic Research Stack Navigator**](https://mahmoudsajjadi.github.io/awesome-ai-research-tools/)  
 > 🔍 **2026 Head-to-Head Comparisons:** [**Consensus vs. Elicit vs. SciSpace vs. Scite**](https://mahmoudsajjadi.github.io/awesome-ai-research-tools/comparisons/consensus-vs-elicit-vs-scispace-2026.html) • [**Best AI LaTeX & Equation OCR Tools**](https://mahmoudsajjadi.github.io/awesome-ai-research-tools/comparisons/best-ai-latex-and-academic-writing-tools-2026.html)  
 > 💡 **Sister Repository:** Looking for coding agents, local LLMs, and SWE-bench benchmarks? Check out [**Awesome AI Coding Tools (2026 Taxonomy & Benchmarks)**](https://github.com/mahmoudsajjadi/awesome-ai-coding-tools).
@@ -185,37 +186,37 @@ Agents that autonomously search the web, formulate hypotheses, and draft literat
 
 Authored and co-authored by [**Mahmoud Sajjadi**](https://scholar.google.com/citations?user=tkhCR5IAAAAJ&hl=en) in machine learning, foundation model evaluation, distributed AI, and federated learning:
 
-1. **A Survey of Large Language Models: Evolution, Architectures, Adaptation, Benchmarking, Applications, Challenges, and Societal Implications**  
+1. **🔥 [NEWLY PUBLISHED] Sustainable Smart Grid Resilience and Renewable Integration Using Multi-Agent Reinforcement Learning**  
+   *S. M. Sajjadi Mohammadabadi, S. M. Sajjadi.*  
+   *Sustainability* (MDPI), Vol. 18, Issue 20, Article 10574 (2026). [[📄 **Read Open-Access on MDPI**](https://www.mdpi.com/2071-1050/18/20/10574)] • [[📥 **Download Official MDPI PDF**](https://www.mdpi.com/2071-1050/18/20/10574/pdf)] • [[DOI: 10.3390/su182010574](https://doi.org/10.3390/su182010574)] • [[Interactive Page & BibTeX](https://mahmoudsajjadi.github.io/papers/sustainable-smart-grid-resilience-marl.html)]
+
+2. **A Survey of Large Language Models: Evolution, Architectures, Adaptation, Benchmarking, Applications, Challenges, and Societal Implications**  
    *S. M. Sajjadi Mohammadabadi, B. C. Kara, C. Eyupoglu, C. Uzay, M. S. Tosun, et al.*  
    *Electronics* 14 (18), 3580 (2025). [[Interactive Page & BibTeX](https://mahmoudsajjadi.github.io/papers/survey-large-language-models-evolution.html)] • [[DOI / Paper](https://doi.org/10.3390/electronics14183580)] • [[Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tkhCR5IAAAAJ&citation_for_view=tkhCR5IAAAAJ:j3f4tGmQtD8C)]
 
-2. **A Survey on Self-Supervised Learning: Recent Advances and Open Problems**  
+3. **A Survey on Self-Supervised Learning: Recent Advances and Open Problems**  
    *J. Zhang, L. Yang, S. M. Sajjadi Mohammadabadi, F. Yan.*  
    *Neurocomputing*, 131409 (2025). [[Interactive Page & BibTeX](https://mahmoudsajjadi.github.io/papers/survey-self-supervised-learning-neurocomputing.html)] • [[DOI / Paper](https://doi.org/10.1016/j.neucom.2024.131409)] • [[Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tkhCR5IAAAAJ&citation_for_view=tkhCR5IAAAAJ:e5wmG9Sq2KIC)]
 
-3. **Speed Up Federated Learning in Heterogeneous Environments: A Dynamic Tiering Approach**  
+4. **Speed Up Federated Learning in Heterogeneous Environments: A Dynamic Tiering Approach**  
    *S. M. Sajjadi Mohammadabadi, S. Zawad, F. Yan, L. Yang.*  
    *IEEE Internet of Things Journal* 12 (5), 5026-5035 (2024). [[Interactive Page & BibTeX](https://mahmoudsajjadi.github.io/papers/speed-up-federated-learning-dynamic-tiering.html)] • [[IEEE Xplore](https://doi.org/10.1109/JIOT.2024.3353457)] • [[Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tkhCR5IAAAAJ&citation_for_view=tkhCR5IAAAAJ:mVmsd5A6BfQC)]
 
-4. **Communication-Efficient Training Workload Balancing for Decentralized Multi-Agent Learning**  
+5. **Communication-Efficient Training Workload Balancing for Decentralized Multi-Agent Learning**  
    *S. M. Sajjadi Mohammadabadi, L. Yang, F. Yan, J. Zhang.*  
    *IEEE 44th International Conference on Distributed Computing Systems (ICDCS)* (2024). [[Interactive Page & BibTeX](https://mahmoudsajjadi.github.io/papers/decentralized-multi-agent-learning-icdcs.html)] • [[IEEE Xplore](https://doi.org/10.1109/ICDCS60910.2024.00032)] • [[Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tkhCR5IAAAAJ&citation_for_view=tkhCR5IAAAAJ:ldfaerwXgEUC)]
 
-5. **Generative Artificial Intelligence for Distributed Learning to Enhance Smart Grid Communication**  
+6. **Generative Artificial Intelligence for Distributed Learning to Enhance Smart Grid Communication**  
    *S. M. Sajjadi Mohammadabadi, M. Entezami, A. K. Moghaddam, M. Orangian, et al.*  
    *International Journal of Intelligent Networks* 5, 267-274 (2024). [[Interactive Page & BibTeX](https://mahmoudsajjadi.github.io/papers/generative-ai-distributed-learning-smart-grid.html)] • [[DOI / Paper](https://doi.org/10.1016/j.ijin.2024.08.001)] • [[Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tkhCR5IAAAAJ&citation_for_view=tkhCR5IAAAAJ:eQOLeE2rZwMC)]
 
-6. **SOLAR: Communication-Efficient Model Adaptation via Subspace-Oriented Latent Adapter Reparametrization**  
+7. **SOLAR: Communication-Efficient Model Adaptation via Subspace-Oriented Latent Adapter Reparametrization**  
    *S. M. Sajjadi Mohammadabadi, X. Ma, L. Yang, F. Yan, J. Zhang.*  
    *arXiv preprint arXiv:2604.08368* (2026). [[Interactive Page & Demo](https://mahmoudsajjadi.github.io/papers/solar-subspace-latent-adapter-peft.html)] • [[arXiv](https://arxiv.org/abs/2604.08368)] • [[Code](https://github.com/mahmoudsajjadi/solar-peft)]
 
-7. **A Survey on Hallucination in Large Language Models: Definitions, Detection, and Mitigation**  
+8. **A Survey on Hallucination in Large Language Models: Definitions, Detection, and Mitigation**  
    *S. M. Sajjadi Mohammadabadi, B. C. Kara, C. Eyupoglu, O. Karakus.*  
    *arXiv preprint arXiv:2604.09912* (2026). [[Interactive Page & BibTeX](https://mahmoudsajjadi.github.io/papers/survey-hallucination-large-language-models.html)] • [[arXiv](https://arxiv.org/abs/2604.09912)]
-
-8. **Sustainable Smart Grid Resilience and Renewable Integration Using Multi-Agent Reinforcement Learning**  
-   *S. M. Sajjadi Mohammadabadi, S. M. Sajjadi.*  
-   *Sustainability* 18 (20), 10574 (2026). [[Interactive Page & BibTeX](https://mahmoudsajjadi.github.io/papers/sustainable-smart-grid-resilience-marl.html)] • [[MDPI Open Access](https://www.mdpi.com/2071-1050/18/20/10574)] • [[DOI: 10.3390/su182010574](https://doi.org/10.3390/su182010574)]
 
 > 🏛️ **Full Citation Archive**: Access all 21 peer-reviewed papers, Schema.org metadata, and 1-click citation widgets at the [**Mahmoud Sajjadi Academic Research Hub**](https://mahmoudsajjadi.github.io/research-hub.html).
 
