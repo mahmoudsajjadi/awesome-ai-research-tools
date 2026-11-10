@@ -59,7 +59,7 @@ Tools that replace brittle keyword queries with semantic vector search and claim
 
 - [Consensus](https://consensus.app/) — AI search engine extracting empirical consensus and findings directly from peer-reviewed scientific papers.
 - [Elicit](https://elicit.com/) — AI research assistant using language models to automate literature reviews, synthesize summaries, and extract structured data columns from PDFs.
-- - [JournalCompass](https://journalcompass.com/) — Free bilingual journal search and AI matcher covering 60,000+ SCI/SSCI journals, with CAS rankings, impact factors, review times, and APCs.
+- [JournalCompass](https://journalcompass.com/) — Free bilingual journal search and AI matcher covering 60,000+ SCI/SSCI journals, with CAS rankings, impact factors, review times, and APCs.
 - [Semantic Scholar](https://www.semanticscholar.org/) — Free, AI-backed academic search engine providing citation velocity, influential citations, and automatic TLDRs.
 - [Scite.ai](https://scite.ai/) — Smart citation index indicating whether citations support, mention, or contrast with target study findings.
 - [Undermind](https://www.undermind.ai/) — Deep exploration agent executing multi-step search loops to uncover obscure and hard-to-find papers.
