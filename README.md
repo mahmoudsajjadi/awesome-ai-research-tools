@@ -48,6 +48,7 @@ flowchart TD
 - [Paper-to-Code & Reproducibility](#-paper-to-code--reproducibility)
 - [Scientific Diagrams & Data Visualization](#-scientific-diagrams--data-visualization)
 - [Autonomous Research Agents](#-autonomous-research-agents)
+- [End-to-End Research Systems](#-end-to-end-research-systems)
 - [Comparison Matrix](#-tool-comparison-matrix)
 - [Contributing](#-contributing)
 
@@ -140,6 +141,14 @@ Agents that autonomously search the web, formulate hypotheses, and draft literat
 - [STORM (Stanford)](https://github.com/stanford-oval/storm) — LLM system executing internet research to generate Wikipedia-style comprehensive reports with citations.
 - [Auto-Researcher](https://github.com/assafelovic/gpt-researcher) — Autonomous agent designed for comprehensive online research on any topic.
 - [ChemCrow](https://github.com/ur-whitelab/chemcrow-public) — Chemistry-focused agent integrating computational chemistry tools and synthesis planning.
+
+---
+
+## 🧪 End-to-End Research Systems
+
+Hosted or packaged systems that connect a research direction to literature, experiments and a manuscript, rather than only a literature review.
+
+- [AutoResearch](https://autoresearch.me/en/) — Hosted end-to-end research system that starts from a research direction and connects literature exploration, testable ideas, model implementation, GPU experiments and manuscript drafting; private beta with administrator approval, 5,000 starter credits, and unpublished pricing. Distinct from karpathy/autoresearch.
 
 ---
 
