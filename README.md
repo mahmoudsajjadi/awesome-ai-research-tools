@@ -48,6 +48,7 @@ flowchart TD
 - [Paper-to-Code & Reproducibility](#-paper-to-code--reproducibility)
 - [Scientific Diagrams & Data Visualization](#-scientific-diagrams--data-visualization)
 - [Autonomous Research Agents](#-autonomous-research-agents)
+- [End-to-End Research Systems](#-end-to-end-research-systems)
 - [Comparison Matrix](#-tool-comparison-matrix)
 - [Contributing](#-contributing)
 
@@ -142,6 +143,14 @@ Agents that autonomously search the web, formulate hypotheses, and draft literat
 - [ChemCrow](https://github.com/ur-whitelab/chemcrow-public) — Chemistry-focused agent integrating computational chemistry tools and synthesis planning.
 - [Agon](https://github.com/AutoResearch-Factory/Agon) — Open-source (MIT) Claude Code plugin that runs multi-agent research loops from a bare topic to running experiments. It uses 18 reusable roles and has run in 10+ research fields without code changes.
 - [AutoSR](https://autosr.app/) — Free web app and open-source (MIT) [Claude Code plugin](https://github.com/AutoResearch-Factory/AutoSR) for symbolic regression, where proposer and reviewer agents search over research states. It recovered three cp3-bench equations that no published system had solved ([paper](https://arxiv.org/abs/2608.16876)).
+
+---
+
+## 🧪 End-to-End Research Systems
+
+Hosted or packaged systems that connect a research direction to literature, experiments and a manuscript, rather than only a literature review.
+
+- [AutoResearch](https://autoresearch.me/en/) — Hosted end-to-end research system that starts from a research direction and connects literature exploration, testable ideas, model implementation, GPU experiments and manuscript drafting; private beta with administrator approval, 5,000 starter credits, and unpublished pricing. Distinct from karpathy/autoresearch.
 
 ---
 
