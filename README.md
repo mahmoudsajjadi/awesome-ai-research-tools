@@ -119,6 +119,7 @@ Bridging the gap between theoretical algorithms and working implementations.
 - [Hugging Face Papers](https://huggingface.co/papers) — Daily trending machine learning papers curated by the community with integrated model weights and demo Spaces.
 - [Zenodo](https://zenodo.org/) — CERN-backed open repository generating permanent DOIs for research datasets, codebases, and artifacts.
 - [Code Ocean](https://codeocean.com/) — Cloud-based computational reproducibility platform executing self-contained compute capsules.
+- [PACE (Parity-Aware Compute Evaluation)](https://github.com/mahmoudsajjadi/pace) — Open-source CLI, audited contrast ledger, and [PACE Studio](https://huggingface.co/spaces/sajjadi/pace-studio) workbench for compute-matched multi-agent LLM evaluation ([Hugging Face Paper](https://huggingface.co/papers/2611.17610)).
 
 ---
 
@@ -188,6 +189,11 @@ Agents that autonomously search the web, formulate hypotheses, and draft literat
 ### 📄 Selected Research & Foundational Publications
 
 Authored and co-authored by [**Mahmoud Sajjadi**](https://scholar.google.com/citations?user=tkhCR5IAAAAJ&hl=en) in machine learning, foundation model evaluation, distributed AI, and federated learning:
+
+0. **PACE: More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs**  
+   *S. M. Sajjadi Mohammadabadi.*  
+   *arXiv:2611.17610* (2026). [[Hugging Face Paper](https://huggingface.co/papers/2611.17610)] • [[GitHub Repo](https://github.com/mahmoudsajjadi/pace)] • [[PACE Studio (HF Space)](https://huggingface.co/spaces/sajjadi/pace-studio)] • [[Project Page](https://mahmoudsajjadi.github.io/pace/)]
+   <p><img src="https://sajjadi-pace-studio.static.hf.space/assets/pace_workflow_loop.gif" width="680" alt="PACE 3-step evaluation workflow"></p>
 
 1. **🔥 [NEWLY PUBLISHED] Sustainable Smart Grid Resilience and Renewable Integration Using Multi-Agent Reinforcement Learning**  
    *S. M. Sajjadi Mohammadabadi, S. M. Sajjadi.*  
